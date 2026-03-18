@@ -3,8 +3,6 @@
 ## Overview
 This project focuses on detecting and classifying tooth numbers from dental images using a deep learning-based object detection model (YOLOv8). The model identifies each tooth and assigns the correct label.
 
----
-
 ## Dataset
 - ~500 dental images
 - YOLO format annotations (.txt files)
@@ -12,14 +10,9 @@ This project focuses on detecting and classifying tooth numbers from dental imag
 - Each image contains multiple labeled teeth
 - Split: 80% training, 20% validation
 
----
-
 ## Why YOLOv8
 YOLOv8 was selected due to its speed, efficiency, and strong performance in object detection tasks. It performs detection and classification in a single step, making it suitable for real-time applications.
-
 The YOLOv8n (nano) model was used as it provides a good balance between speed and accuracy and is lightweight for training.
-
----
 
 ## Approach
 - Prepared dataset in YOLO format
@@ -29,8 +22,6 @@ The YOLOv8n (nano) model was used as it provides a good balance between speed an
 - Performed inference using trained model
 - Evaluated performance using mAP metrics
 
----
-
 ## Model & Training
 - Model: YOLOv8n
 - Epochs: 50
@@ -38,15 +29,11 @@ The YOLOv8n (nano) model was used as it provides a good balance between speed an
 - Framework: Ultralytics YOLO
 - Environment: Google Colab (T4 GPU)
 
----
-
 ## Results
 - mAP@50 ≈ 0.52  
 - mAP@50-95 ≈ 0.33  
 
 The model successfully detects teeth and assigns correct labels. Sample outputs are available in the `outputs/` folder.
-
----
 
 ## Project Structure
 Tooth-Detection-YOLOv8/
@@ -57,7 +44,6 @@ Tooth-Detection-YOLOv8/
 │── report.pdf
 │── README.md
 
----
 
 ## Files Included
 - `tooth_detection.ipynb` → Training and prediction code  
@@ -65,12 +51,9 @@ Tooth-Detection-YOLOv8/
 - `outputs/` → Sample predictions  
 - `report.pdf` → Project report  
 
----
 
 ## Conclusion
 The YOLOv8 model effectively detects and classifies tooth numbers from dental images. Performance can be improved further with more data and tuning.
-
----
 
 ## Author
 **V. Bindu Sri**  
